@@ -1,0 +1,21 @@
+:root { --bg:#0E1626; --surface:#15203A; --ink:#F1EAD8; --ink2:#A9B2C6; --line:#2A3858; --gold:#C9A24B; color-scheme: dark; }
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body { margin:0; background:linear-gradient(#0A1224,#16264A) fixed; color:var(--ink);
+  font-family:"Hiragino Mincho ProN","Hiragino Sans","Noto Serif JP",Georgia,serif; line-height:1.85; font-size:16px; }
+main { max-width:720px; margin:0 auto; padding:40px 16px 64px; }
+header.brand { display:flex; align-items:center; gap:12px; margin-bottom:28px; }
+header.brand img { width:48px; height:48px; border-radius:11px; }
+header.brand .name { font-size:20px; letter-spacing:.18em; color:var(--gold); }
+h1 { font-size:26px; font-weight:600; margin:0 0 6px; line-height:1.4; }
+.meta { color:var(--ink2); font-size:14px; margin:0 0 28px; }
+.lang { font-size:14px; margin:0 0 32px; }
+section { background:rgba(21,32,58,.85); border:1px solid var(--line); border-radius:18px; padding:20px 22px; margin:0 0 14px; }
+h2 { font-size:17px; font-weight:600; margin:0 0 8px; line-height:1.5; color:var(--gold); }
+p, li { margin:0 0 8px; overflow-wrap:anywhere; }
+ul { padding-left:1.3em; margin:0 0 8px; }
+a { color:#E3C777; }
+.note { color:var(--ink2); font-size:14px; }
+hr { border:0; border-top:1px solid var(--line); margin:48px 0 40px; }
+footer { color:var(--ink2); font-size:13px; text-align:center; margin-top:40px; }
+.links a { display:inline-block; margin:0 14px 8px 0; }
